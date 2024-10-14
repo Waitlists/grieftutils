@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "me.waitlists.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"MultiplayerScreenMixin",
+		"PauseScreenMixin",
+		"GameMenuScreenAccessor",
+		"TitleScreenMixin"
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
